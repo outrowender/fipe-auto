@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A42FC0A2AC45DFD0029730A /* ModelSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A42FC092AC45DFD0029730A /* ModelSelectorView.swift */; };
+		2AE28C9E2AC4AA2000A8D5A2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE28C9D2AC4AA2000A8D5A2 /* View.swift */; };
+		2AE28CA02AC4ACE100A8D5A2 /* ModelSelectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE28C9F2AC4ACE100A8D5A2 /* ModelSelectorModel.swift */; };
+		2AE28CA32AC4B38400A8D5A2 /* YearSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE28CA22AC4B38400A8D5A2 /* YearSelectorView.swift */; };
+		2AE28CA52AC4B42900A8D5A2 /* YearSelectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE28CA42AC4B42900A8D5A2 /* YearSelectorModel.swift */; };
 		2AE9391E2AC3261800733A60 /* Wender_AutoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9391D2AC3261800733A60 /* Wender_AutoApp.swift */; };
 		2AE939202AC3261800733A60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9391F2AC3261800733A60 /* ContentView.swift */; };
 		2AE939222AC3261900733A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE939212AC3261900733A60 /* Assets.xcassets */; };
 		2AE939252AC3261900733A60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE939242AC3261900733A60 /* Preview Assets.xcassets */; };
+		2AE9392D2AC326A200733A60 /* BrandSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9392C2AC326A200733A60 /* BrandSelectorView.swift */; };
+		2AE9392F2AC326D000733A60 /* BrandSelectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9392E2AC326D000733A60 /* BrandSelectorModel.swift */; };
+		2AE939322AC326E900733A60 /* HttpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE939312AC326E900733A60 /* HttpService.swift */; };
+		2AE939352AC3281800733A60 /* CodeNameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE939342AC3281800733A60 /* CodeNameModel.swift */; };
+		2AE939372AC3297A00733A60 /* VehicleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE939362AC3297A00733A60 /* VehicleModel.swift */; };
+		2AE939392AC329BB00733A60 /* VehicleHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE939382AC329BB00733A60 /* VehicleHistoryModel.swift */; };
+		2AE9393B2AC329F200733A60 /* FipeApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE9393A2AC329F200733A60 /* FipeApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A42FC092AC45DFD0029730A /* ModelSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSelectorView.swift; sourceTree = "<group>"; };
+		2AE28C9D2AC4AA2000A8D5A2 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		2AE28C9F2AC4ACE100A8D5A2 /* ModelSelectorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSelectorModel.swift; sourceTree = "<group>"; };
+		2AE28CA22AC4B38400A8D5A2 /* YearSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearSelectorView.swift; sourceTree = "<group>"; };
+		2AE28CA42AC4B42900A8D5A2 /* YearSelectorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearSelectorModel.swift; sourceTree = "<group>"; };
 		2AE9391A2AC3261800733A60 /* Wender Auto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wender Auto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE9391D2AC3261800733A60 /* Wender_AutoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wender_AutoApp.swift; sourceTree = "<group>"; };
 		2AE9391F2AC3261800733A60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AE939212AC3261900733A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AE939242AC3261900733A60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AE9392C2AC326A200733A60 /* BrandSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandSelectorView.swift; sourceTree = "<group>"; };
+		2AE9392E2AC326D000733A60 /* BrandSelectorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandSelectorModel.swift; sourceTree = "<group>"; };
+		2AE939312AC326E900733A60 /* HttpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpService.swift; sourceTree = "<group>"; };
+		2AE939342AC3281800733A60 /* CodeNameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNameModel.swift; sourceTree = "<group>"; };
+		2AE939362AC3297A00733A60 /* VehicleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleModel.swift; sourceTree = "<group>"; };
+		2AE939382AC329BB00733A60 /* VehicleHistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleHistoryModel.swift; sourceTree = "<group>"; };
+		2AE9393A2AC329F200733A60 /* FipeApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FipeApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +56,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A42FC072AC45DDD0029730A /* BrandSelector */ = {
+			isa = PBXGroup;
+			children = (
+				2AE9392C2AC326A200733A60 /* BrandSelectorView.swift */,
+				2AE9392E2AC326D000733A60 /* BrandSelectorModel.swift */,
+			);
+			path = BrandSelector;
+			sourceTree = "<group>";
+		};
+		2A42FC082AC45DE80029730A /* ModelSelector */ = {
+			isa = PBXGroup;
+			children = (
+				2A42FC092AC45DFD0029730A /* ModelSelectorView.swift */,
+				2AE28C9F2AC4ACE100A8D5A2 /* ModelSelectorModel.swift */,
+			);
+			path = ModelSelector;
+			sourceTree = "<group>";
+		};
+		2AE28C9C2AC4AA1000A8D5A2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2AE28C9D2AC4AA2000A8D5A2 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2AE28CA12AC4B32F00A8D5A2 /* YearSelector */ = {
+			isa = PBXGroup;
+			children = (
+				2AE28CA22AC4B38400A8D5A2 /* YearSelectorView.swift */,
+				2AE28CA42AC4B42900A8D5A2 /* YearSelectorModel.swift */,
+			);
+			path = YearSelector;
+			sourceTree = "<group>";
+		};
 		2AE939112AC3261800733A60 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +110,10 @@
 		2AE9391C2AC3261800733A60 /* Wender Auto */ = {
 			isa = PBXGroup;
 			children = (
+				2AE28C9C2AC4AA1000A8D5A2 /* Extensions */,
+				2AE939332AC327D900733A60 /* Models */,
+				2AE939302AC326DA00733A60 /* Services */,
+				2AE9392B2AC3266B00733A60 /* Views */,
 				2AE9391D2AC3261800733A60 /* Wender_AutoApp.swift */,
 				2AE9391F2AC3261800733A60 /* ContentView.swift */,
 				2AE939212AC3261900733A60 /* Assets.xcassets */,
@@ -65,6 +128,35 @@
 				2AE939242AC3261900733A60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AE9392B2AC3266B00733A60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A42FC072AC45DDD0029730A /* BrandSelector */,
+				2A42FC082AC45DE80029730A /* ModelSelector */,
+				2AE28CA12AC4B32F00A8D5A2 /* YearSelector */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2AE939302AC326DA00733A60 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2AE939312AC326E900733A60 /* HttpService.swift */,
+				2AE9393A2AC329F200733A60 /* FipeApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2AE939332AC327D900733A60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2AE939342AC3281800733A60 /* CodeNameModel.swift */,
+				2AE939362AC3297A00733A60 /* VehicleModel.swift */,
+				2AE939382AC329BB00733A60 /* VehicleHistoryModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +229,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A42FC0A2AC45DFD0029730A /* ModelSelectorView.swift in Sources */,
+				2AE28CA52AC4B42900A8D5A2 /* YearSelectorModel.swift in Sources */,
+				2AE9393B2AC329F200733A60 /* FipeApiService.swift in Sources */,
+				2AE939372AC3297A00733A60 /* VehicleModel.swift in Sources */,
+				2AE28CA02AC4ACE100A8D5A2 /* ModelSelectorModel.swift in Sources */,
+				2AE9392F2AC326D000733A60 /* BrandSelectorModel.swift in Sources */,
 				2AE939202AC3261800733A60 /* ContentView.swift in Sources */,
+				2AE28CA32AC4B38400A8D5A2 /* YearSelectorView.swift in Sources */,
+				2AE9392D2AC326A200733A60 /* BrandSelectorView.swift in Sources */,
+				2AE939352AC3281800733A60 /* CodeNameModel.swift in Sources */,
 				2AE9391E2AC3261800733A60 /* Wender_AutoApp.swift in Sources */,
+				2AE939322AC326E900733A60 /* HttpService.swift in Sources */,
+				2AE28C9E2AC4AA2000A8D5A2 /* View.swift in Sources */,
+				2AE939392AC329BB00733A60 /* VehicleHistoryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct Wender_AutoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BrandSelectorView()
         }
     }
 }
